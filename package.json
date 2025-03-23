@@ -1,0 +1,23 @@
+{
+  "name": "projrename",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rename-workspace.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rename": "ts-node src/rename-workspace.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.0",
+    "ignore": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.18"
+  }
+}

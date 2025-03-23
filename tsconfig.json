@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es6",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "paths": {
+        "expo-file-system": ["./src/expo-file-system/index.ts"],
+        "@react-native-async-storage/async-storage": ["./src/@react-native-async-storage/async-storage.ts"],
+        "expo-constants": ["./src/expo-constants/index.ts"],
+        "expo-av": ["./src/expo-av/index.ts"],
+        "@/*": ["./*"]
+      }
+    },
+    "lib": ["es2015"]
+  }
+  
